@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "watch": "nodemon -r dotenv/config index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
